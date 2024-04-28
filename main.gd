@@ -26,7 +26,7 @@ func new_game():
 
 func _on_start_timer_timeout():
 	$MobTimer.start()
-	$ScoreTImer.start()
+	$ScoreTimer.start()
 
 
 func _on_mob_timer_timeout():
